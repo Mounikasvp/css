@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+.A2{
+    background-color:green;
+    display: flex;
+    width: auto;
+    height: 100px;
+  
+}
+.f{
+   margin-left: 20px;
+   padding-right: 700px;
+   align-content: center;
+
+}
+.c{
+    color:white;
+    align-content: center;
+    padding-right: 50px;
+}
+.e{
+    margin: 30px 0px 10px 0px;
+    background-color: lime;
+    width: auto;
+    height: 30px;
+    padding:10px 25px ;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+.d{
+    padding-left: 10px;
+    align-content: center;
+    padding: 10px;
+}
