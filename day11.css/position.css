@@ -1,0 +1,12 @@
+p{
+    background-color: aqua;
+    width: 100px;
+    height: 70px;
+    border: 2px solid black;
+}
+.A{
+    background-color: purple;
+    position: fixed;
+    /* top: 10px;
+    left: 0px; */
+}
