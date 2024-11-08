@@ -43,6 +43,32 @@
         
     }
 }
+@media screen and (min-width:601px) and (max-width:1024px){
+    .parent{
+        background-color: chartreuse;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;  
+        position: relative;  
+    }
+    .C{
+        display: none;
+        position: absolute;
+        top: 50px;
+        gap: 20px;
+        background-color: violet;
+        width: 100%;
+        align-items: center;
+    }
+    .A{
+        display: block;
+    }
+    .B:checked ~ p{
+        display: flex;
+        flex-direction: column;
+    }
+   
+}
 @media screen and (min-width:601px) and (max-width:1000px){
     .parent{
         background-color: chartreuse;
